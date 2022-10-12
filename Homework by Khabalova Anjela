@@ -1,0 +1,135 @@
+class University:
+
+   #Функция описывает университет
+
+   def __init__(self, name: str, founding_date: int, world_ranking: int):
+    
+    #Cоздание и подготовка к работе объекта "университет"
+
+    :param name: Наименование университета
+    :param founding_date: Дата основания университета
+    :param world_ranking: Место в мировом рейтинге университета
+
+    self.name = name
+    self.founding_date = founding_date
+    self.world_ranking = world_ranking
+
+
+   def get_name(self) -> str:
+
+     #Функция возвращает наименование университета
+
+     :return: Наименование университета
+
+
+
+   def get_founding_date(self) -> int:
+
+     #Функция возвращает наименование университета
+
+     :return: Дата основания университета
+
+
+
+   def get_world_ranking(self) -> int:
+
+     #Функция возвращает наименование университета
+
+     :return: Место в мировом рейтинге университета
+
+if __main__ = "__main__":
+print("Создайте класс University")
+
+
+
+
+class Zoo_market:
+
+   #Функция описывает работу зоомагазина
+
+   def __init__(self, number_of_animals: int, assortment: list, 
+                hunger_level: float):
+    
+    #Cоздание и подготовка к работе объекта "зоомагазин"
+
+    :param number_of_animals: Колличество животных
+    :param assortment: Ассортимент товаров
+    :param hunger_level: Уровень голода животных
+
+    self.number_of_animals = number_of_animals
+    self.assortment = assortment
+    self.hunger_level = hunger_level
+
+
+   def get_number_of_animals(self) -> int:
+
+     #Функция подсчитывает количество животных в зоомагазине
+
+     :return: Колличество животных
+
+
+
+   def get_assortment(self) -> list:
+
+     #Функция составляет список ассортимента товаров
+
+     :return: Ассортимент товаров
+
+
+
+   def get_hunger_level(self) -> float:
+
+     #Функция подсчитывает уровень голода животных и посылает отчет продавцу
+
+     :return: Уровень голода животных
+
+
+if __main__ = "__main__":
+print("Создайте класс Zoo_market")
+
+
+
+
+class amusement_park:
+
+   #Функция описывает парк развлечений
+
+   def __init__(self, grade: int, recommendation: list, 
+                daily_profit: float):
+    
+    #Cоздание и подготовка к работе объекта "зоомагазин"
+
+    :param grade: Средняя оценка парка развлечений
+    :param recommendation: Рекоммендации по подбору аттракциона
+    :param daily_profit: Прибыль
+
+    self.grade = grade
+    self.recommendation = recommendation
+    self.daily_profit = daily_profit
+
+
+   def get_grade(self) -> int:
+
+     #Функция на основе отзывов посетителей ежедневно формирует оценку парка развлечений
+
+     :return: Средняя оценка парка развлечений
+
+
+
+   def get_recommendation(self) -> list:
+
+     #Функция на основе предпочтений посетителей формирует список рекомендованных аттракционов
+
+     :return: Рекоммендации по подбору аттракциона
+
+
+
+   def get_daily_profit(self) -> float:
+
+     #Функция подсчитывает ежедневную прибыль парка развлечений
+
+     :return: Прибыль
+
+
+if __main__ = "__main__":
+print("Создайте класс amusement_park")
